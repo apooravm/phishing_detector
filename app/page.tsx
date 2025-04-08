@@ -65,7 +65,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col gap-4 w-2/3">
+            <div className="flex flex-col gap-4 lg:w-2/3">
                 <span>
                     Our model is trained on the{" "}
                     <a
@@ -74,12 +74,12 @@ const Home = () => {
                         href="https://www.kaggle.com/datasets/hassaanmustafavi/phishing-urls-dataset">
                         Kaggle Phishing URLs classification dataset
                     </a>{" "}
-                    . This dataset comprises of about 40,000 URLs, with 20,000
+                    . This dataset comprises of over 40,000 URLs, with 20,000
                     phishing and 20,000 legitimate URLs. We utilise the
                     scikit-learn library to train our model.
                 </span>
                 <span>
-                    After training and testing the model, have dockerized it
+                    After training and testing the model, we have dockerized it
                     into a container and saved it on AWS Elastic Container
                     Registry (ECR). This container is made use of by an AWS
                     Lambda function. The lambda function works with an API
