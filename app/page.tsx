@@ -73,8 +73,7 @@ const Home = () => {
                         rel="stylesheet"
                         href="https://www.kaggle.com/datasets/hassaanmustafavi/phishing-urls-dataset">
                         Kaggle Phishing URLs classification dataset
-                    </a>{" "}
-                    . This dataset comprises of over 40,000 URLs, with 20,000
+                    </a>. This dataset comprises of over 40,000 URLs, with 20,000
                     phishing and 20,000 legitimate URLs. We utilise the
                     scikit-learn library to train our model.
                 </span>
